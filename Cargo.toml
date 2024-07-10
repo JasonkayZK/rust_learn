@@ -10,3 +10,5 @@ repository = "https://github.com/JasonkayZK/rust-learn/"
 authors = ["Jasonkay jasonkayzk@gmail.com"]
 
 [dependencies]
+mdns-sd = { version = "0.11.1" }
+env_logger = { version = "0.11.3" }
