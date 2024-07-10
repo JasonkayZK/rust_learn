@@ -63,8 +63,8 @@ fn main() {
         port,
         &properties[..],
     )
-        .expect("valid service info")
-        .enable_addr_auto();
+    .expect("valid service info")
+    .enable_addr_auto();
 
     // Optionally, we can monitor the daemon events.
     let monitor = mdns.monitor().expect("Failed to monitor the daemon");
